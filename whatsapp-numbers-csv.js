@@ -27,3 +27,5 @@ function downloadCSV(content) {
     document.body.appendChild(link);
     link.click();
 }
+
+downloadCSV(getNumbers());
